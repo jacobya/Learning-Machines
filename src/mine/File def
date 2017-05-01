@@ -1,0 +1,45 @@
+File DefFile Definitions:
+blanket
+	This is used by the minimax and only by the minimax. 
+	What it contains:
+	This contains the turns that are available to be played. 
+	The current play that was use to create the new blanket.
+	Then pointer to the next layer of the tree. 
+	Then the score of the current board. 
+	Then the current board.
+	The choice that lead to the creation of this blanket or the choice to the current blanket.
+	The depth that this blanket is at.
+	Then the current best place in the turns array.
+
+board
+	The board class contains the board and the basic heuristic and the win checker. 
+CrossPointLabel
+	Contains the logic for the creating points on the main board that will be played on.
+CustomDialog 
+	Contains the logic for creating all the different dialog boxes.
+FileOut
+	What is use to write out to file.
+GameBoard
+	Creates the main frame for the gui.
+GridPanel
+	Creates the line on the main board.
+Knn
+	This has all the logic for knn classifier.
+main
+	This creates the players and the game board gui.
+Minimax
+	This has the logic for basic minimax and for alpha beta.
+NearestBoards
+	This contain the board for the knn.
+NeuralNet
+	Contains the logic for the neural network.
+node
+	This is the basic data structure for everything.
+Player
+	Allow the different players to make moves.
+RandomPlayer
+	Choose random spot on the board to play.
+RandomRun
+	Original random player for test data.
+Current errors:
+Minimax is currently not updating the board or simply not working for some reason. 
